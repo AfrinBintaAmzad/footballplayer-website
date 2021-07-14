@@ -1,0 +1,125 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.container{
+    width: 1335px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #2D25A0;
+}
+.head-section{
+    display: flex;
+    justify-content:space-between;
+}
+.live-head{
+    margin-left: 156px;
+    padding: 10px 24px;
+    width:20 px;
+    height: 24px;
+    border: 1px solid #E02C6D;
+    background-color:#E02C6D;
+    border-radius: 5px;
+   
+}
+.live-head a{
+    width: 88px;
+    height: 24px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    color: azure;
+    font-size: 16px;
+
+}
+i {
+    color: aliceblue;
+    padding-left: 8px;
+}
+
+.head-section .live-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: -90px;
+    transition: width 2s, height 2s;
+}
+.head-section .live-image img:hover{
+    width: 200px;
+    height: 200px;
+}
+.head-section{
+    margin-top: ;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    width: 485px;
+    height: 230px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    margin-left:156px;
+    padding-top: 30px;
+    color:  #FFFFFF;
+    margin-top: -9px;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 53.17px;
+    margin: 33px;
+}
+.player-banner img{
+    width: 190px;
+    height: 200px;
+    padding:5px;
+    border-radius:10px;
+}
+.player{
+    width: 200px;
+    height: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    grid-gap: 20px 50px;
+
+}
+.container2{
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.player-detail h3{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.player-detail p{
+    padding-left: 5px;
+    color: #6C6C6C;
+}
+footer i{
+    color: #969BAB;
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+    margin: 20px 0px;
+    
+}
+footer{
+    text-align: center;
+    height: 200px;
+}
+footer p{
+font-family:Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 20px;
+}
