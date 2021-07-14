@@ -1,7 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
+/* -------About First Section-------- */
 .container{
     width: 1335px;
     height: 100%;
@@ -62,6 +62,7 @@ h1{
     color:  #FFFFFF;
     margin-top: -9px;
 }
+/* ------About Player------- */
 .player{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -99,6 +100,8 @@ h1{
     padding-left: 5px;
     color: #6C6C6C;
 }
+/* --------Aboutfooter-------- */
+
 footer i{
     color: #969BAB;
 }
@@ -111,6 +114,7 @@ footer img{
 footer{
     text-align: center;
     height: 200px;
+    
 }
 footer p{
 font-family:Poppins;
@@ -118,8 +122,36 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 24px;
+margin-top: 1px;
+
 }
-hr{
+/* hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 20px;
-}
+} */
+
+/* -----Media Queries----- */
+/* Mobile Devices */
+
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .container2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .head-section{
+        font-size: 20px;
+    }
+    .live-head{
+        width: 40px;
+        height: 40px;
+    }
+   
+    footer img{
+        height: 50px;
+        width: 200px;
+    }
+    footer{
+        width:100%;
+    }
